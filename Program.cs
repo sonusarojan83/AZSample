@@ -11,6 +11,7 @@ namespace AZSample
 {
     public class Program
     {
+        //my comment
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
