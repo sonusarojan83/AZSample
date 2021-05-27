@@ -16,7 +16,7 @@ namespace AZSample
         {
             CreateHostBuilder(args).Build().Run();
         }
-//Added my comment
+
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
